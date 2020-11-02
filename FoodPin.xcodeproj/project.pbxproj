@@ -119,16 +119,16 @@
 		F4C333282365F91600D3A311 /* FoodPin */ = {
 			isa = PBXGroup;
 			children = (
+				F4C333292365F91600D3A311 /* AppDelegate.swift */,
+				F4C333322365F91800D3A311 /* Assets.xcassets */,
+				F4C333452366F21100D3A311 /* Controller */,
 				F4201CD823683BD3003C09DB /* Extensions */,
+				F4C333372365F91800D3A311 /* Info.plist */,
+				F4C333462366F22900D3A311 /* Model */,
 				F4C33349236736A400D3A311 /* Resources */,
+				F4C3332B2365F91600D3A311 /* SceneDelegate.swift */,
 				F4C333482366F24400D3A311 /* Storyboard */,
 				F4C333472366F23700D3A311 /* View */,
-				F4C333462366F22900D3A311 /* Model */,
-				F4C333452366F21100D3A311 /* Controller */,
-				F4C333292365F91600D3A311 /* AppDelegate.swift */,
-				F4C3332B2365F91600D3A311 /* SceneDelegate.swift */,
-				F4C333322365F91800D3A311 /* Assets.xcassets */,
-				F4C333372365F91800D3A311 /* Info.plist */,
 			);
 			path = FoodPin;
 			sourceTree = "<group>";
@@ -439,12 +439,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HMTQUL7LT8;
 				INFOPLIST_FILE = FoodPin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.FoodPin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.armandocarrillo.FoodPin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,12 +457,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HMTQUL7LT8;
 				INFOPLIST_FILE = FoodPin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.FoodPin;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mx.armandocarrillo.FoodPin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
